@@ -11,15 +11,35 @@ h1{
     padding-top: 8px;
 }
 
-.bar{
+.bar {
     background-color: #464b55;
-    padding: 10px;
+    padding: 10px 40px; /* Un poco más de aire a los lados */
     display: flex;
+    justify-content: space-between; /* Esto separa el logo de los links */
+    align-items: center;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
 }
 
 .logo{
     width: 50px;
     height: 50px;
+}
+
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: color 0.3s; /* Animación suave */
+}
+
+.nav-links a:hover {
+    color: #61afef; /* El azul que ya usas en tus posts */
 }
 
 .container{
